@@ -200,46 +200,12 @@
           <p class="section__subtitle">Décrivez votre besoin professionnel, je vous réponds sous 24h ouvrées.</p>
         </header>
 
-        <form class="contact-form" id="contactForm" novalidate>
-          <div class="form-row">
-            <div class="field">
-              <label for="company">Société / Nom du contact</label>
-              <input type="text" id="name" name="name" required placeholder="Votre société" />
-            </div>
-            <div class="field">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required placeholder="contact@societe.fr" />
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="field">
-              <label for="phone">Téléphone</label>
-              <input type="tel" id="phone" name="phone" placeholder="06 12 34 56 78" />
-            </div>
-            <div class="field">
-              <label for="activity">Secteur d'activité</label>
-              <input type="text" id="activity" name="activity" placeholder="Commerce, artisanat, services..." />
-            </div>
-            <div class="field">
-              <label for="subject">Sujet</label>
-              <select id="subject" name="subject">
-                <option>DSI externalisé</option>
-                <option>Chef de projet</option>
-                <option>Manager de transition</option>
-                <option>Gestion de crise</option>
-                <option>Autre</option>
-              </select>
-            </div>
-          </div>
-          <div class="field">
-            <label for="message">Votre message</label>
-            <textarea id="message" name="message" rows="5" required placeholder="Décrivez votre besoin..."></textarea>
-          </div>
-          <button type="submit" class="btn btn--primary btn--block">Envoyer ma demande</button>
-          <p class="form-feedback" id="formFeedback" role="status" hidden>
-            ✅ Merci ! Votre demande a bien été prise en compte. Je vous réponds sous 24h.
+        <div class="contact-simple">
+          <p class="contact-simple__text">
+            Pour toute demande, écrivez-moi à l'adresse suivante — je vous réponds sous 24h ouvrées.
           </p>
-        </form>
+          <a class="contact-simple__mail" href="mailto:contact@yke.solutions">contact@yke.solutions</a>
+        </div>
       </div>
     </section>
   </main>
