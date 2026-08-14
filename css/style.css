@@ -490,6 +490,53 @@ a { color: inherit; text-decoration: none; }
   .categories { grid-template-columns: repeat(3, 1fr); }
 }
 
+/* ---------- Page service : hero single + CTA ---------- */
+.hero__inner--service { gap: 32px; }
+.hero__visual--single {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 240px;
+  margin-inline: auto;
+}
+.hero__visual--single .hero__card {
+  padding: 40px 24px;
+}
+.hero__visual--single .hero__card-icon { font-size: 3rem; }
+
+.cta-box {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, var(--c-accent), var(--c-primary));
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 48px 32px;
+  box-shadow: var(--shadow-lg);
+}
+.cta-box .section__title { color: #fff; margin-bottom: 12px; }
+.cta-box .section__subtitle { color: rgba(255, 255, 255, 0.9); margin-bottom: 24px; }
+.cta-box .btn--primary {
+  background: #fff;
+  color: var(--c-accent);
+}
+.cta-box .btn--primary:hover { background: var(--c-bg-alt); }
+
+/* Item de liste cliquable */
+.category__list a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.category__list a::after {
+  content: " →";
+  opacity: 0;
+  transition: var(--transition);
+  color: var(--cat);
+  font-weight: 700;
+}
+.category__list li:hover a::after { opacity: 1; }
+
+
 /* ===========================================================
    Responsive — Tablettes
    =========================================================== */
