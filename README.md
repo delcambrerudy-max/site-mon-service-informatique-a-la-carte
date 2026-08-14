@@ -1,7 +1,8 @@
 # Service Informatique à la Carte
 
 Site vitrine **statique et responsive** pour un service informatique à la carte
-(support, dépannage, installation, maintenance et conseil).
+réservé aux **professionnels** (entreprises, artisans, commerçants et indépendants).
+Support, dépannage, installation, maintenance et conseil.
 
 ## Aperçu
 
