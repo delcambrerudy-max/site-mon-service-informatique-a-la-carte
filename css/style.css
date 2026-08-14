@@ -369,6 +369,62 @@ a { color: inherit; text-decoration: none; }
 }
 .reveal.is-visible { opacity: 1; transform: translateY(0); }
 
+
+/* ---------- Categories (3 familles de services) ---------- */
+.categories {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+.category {
+  background: #fff;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  padding: 28px 26px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+.category:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: transparent; }
+.category__head { margin-bottom: 18px; }
+.category__icon {
+  font-size: 2rem;
+  width: 56px; height: 56px;
+  display: grid; place-items: center;
+  border-radius: 14px;
+  background: rgba(37, 99, 235, 0.1);
+  margin-bottom: 14px;
+}
+.category__title { font-size: 1.3rem; margin: 0 0 8px; }
+.category__desc { margin: 0; color: var(--c-muted); }
+.category__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+.category__list li {
+  position: relative;
+  padding-left: 24px;
+  font-weight: 500;
+}
+.category__list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--c-accent);
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .categories { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 992px) {
+  .categories { grid-template-columns: repeat(3, 1fr); }
+}
+
 /* ===========================================================
    Responsive — Tablettes
    =========================================================== */
