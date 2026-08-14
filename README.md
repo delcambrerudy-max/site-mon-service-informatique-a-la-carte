@@ -1,14 +1,14 @@
 # Service Informatique à la Carte
 
-Site vitrine **statique et responsive** pour un service de **conseil en Système d'Information**
-réservé aux **PME et ETI**. DSI externalisé, manager de transition, audit SI,
-gestion de projet et gestion de crise. Expertise sectorielle : santé, bâtiment, enseignement.
+Site vitrine **statique et responsive** pour un service informatique à la carte
+réservé aux **professionnels** (entreprises, artisans, commerçants et indépendants).
+Support, dépannage, installation, maintenance et conseil.
 
 ## Aperçu
 
 - Site 100 % statique : HTML, CSS et JavaScript natifs, sans dépendance ni build.
 - **Responsive** (mobile, tablette, desktop) avec un menu mobile « hamburger ».
-- Sections : Hero, enjeux, Services, Secteurs d'expertise, À propos, Témoignages, Contact.
+- Sections : Hero, Services, À propos, Témoignages, Contact.
 - Animations légères au défilement (respect de `prefers-reduced-motion`).
 - Formulaire de contact avec validation côté client (démo — à brancher à un service d'envoi).
 
