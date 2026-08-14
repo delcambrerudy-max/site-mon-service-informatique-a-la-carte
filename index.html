@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Service informatique à la carte : support, dépannage, installation, maintenance et conseil pour les particuliers et professionnels." />
+  <meta name="theme-color" content="#1e3a8a" />
+  <title>Service Informatique à la Carte</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="brand" aria-label="Accueil">
+        <span class="brand__logo" aria-hidden="true">⌬</span>
+        <span class="brand__name">Service Informatique <strong>à la Carte</strong></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Navigation principale">
+        <ul class="nav__list">
+          <li><a href="#services" class="nav__link">Services</a></li>
+          <li><a href="#apropos" class="nav__link">À propos</a></li>
+          <li><a href="#temoignages" class="nav__link">Témoignages</a></li>
+          <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="hero__badge">Disponible 7j/7</span>
+          <h1 class="hero__title">Votre partenaire informatique, <span class="text-accent">à la carte</span></h1>
+          <p class="hero__subtitle">
+            Support, dépannage, installation et conseil informatique adaptés à vos besoins.
+            Que vous soyez particulier ou professionnel, je m'adapte à votre demande.
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">Demander un devis</a>
+            <a href="#services" class="btn btn--ghost">Découvrir les services</a>
+          </div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__card">
+            <div class="hero__card-icon">🖥️</div>
+            <p class="hero__card-text">Dépannage express</p>
+          </div>
+          <div class="hero__card hero__card--accent">
+            <div class="hero__card-icon">🛠️</div>
+            <p class="hero__card-text">Maintenance</p>
+          </div>
+          <div class="hero__card">
+            <div class="hero__card-icon">💡</div>
+            <p class="hero__card-text">Conseil IT</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__eyebrow">Nos prestations</span>
+          <h2 class="section__title">Des services informatiques sur mesure</h2>
+          <p class="section__subtitle">Chaque mission est adaptée à votre contexte. Voici les principaux services proposés.</p>
+        </header>
+
+        <div class="grid grid--3">
+          <article class="card service">
+            <div class="service__icon">🖥️</div>
+            <h3 class="service__title">Dépannage & Support</h3>
+            <p class="service__text">Diagnostic et résolution des pannes matérielles et logicielles, sur site ou à distance.</p>
+          </article>
+          <article class="card service">
+            <div class="service__icon">⚙️</div>
+            <h3 class="service__title">Installation & Configuration</h3>
+            <p class="service__text">Mise en place de postes, réseaux, logiciels et périphériques, prêts à l'emploi.</p>
+          </article>
+          <article class="card service">
+            <div class="service__icon">🛡️</div>
+            <h3 class="service__title">Sécurité & Sauvegarde</h3>
+            <p class="service__text">Protection antivirus, mises à jour, sauvegardes et restauration de vos données.</p>
+          </article>
+          <article class="card service">
+            <div class="service__icon">🛠️</div>
+            <h3 class="service__title">Maintenance & Suivi</h3>
+            <p class="service__text">Contrats de maintenance régulière pour garder un parc informatique performant.</p>
+          </article>
+          <article class="card service">
+            <div class="service__icon">💡</div>
+            <h3 class="service__title">Conseil & Audit</h3>
+            <p class="service__text">Audit de votre infrastructure et recommandations pour optimiser votre parc.</p>
+          </article>
+          <article class="card service">
+            <div class="service__icon">🌐</div>
+            <h3 class="service__title">Réseau & Internet</h3>
+            <p class="service__text">Configuration réseau, box, Wi-Fi et résolution des problèmes de connexion.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- À propos -->
+    <section class="section section--alt" id="apropos">
+      <div class="container apropos">
+        <div class="apropos__content">
+          <span class="section__eyebrow">À propos</span>
+          <h2 class="section__title">Un service de proximité, flexible et de confiance</h2>
+          <p>
+            Ce service informatique à la carte s'adresse aux particuliers comme aux petites entreprises.
+            L'objectif : vous proposer une aide claire, transparente et adaptée à votre besoin réel,
+            sans abonnement inutile ni jargon.
+          </p>
+          <ul class="apropos__list">
+            <li>✅ Intervention à domicile ou à distance</li>
+            <li>✅ Devis gratuit et sans engagement</li>
+            <li>✅ Tarifs transparents et adaptés</li>
+            <li>✅ Disponibilité 7j/7 sur rendez-vous</li>
+          </ul>
+        </div>
+        <div class="apropos__stats">
+          <div class="stat">
+            <span class="stat__num">10+</span>
+            <span class="stat__label">Ans d'expérience</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">500+</span>
+            <span class="stat__label">Interventions</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">100%</span>
+            <span class="stat__label">Satisfaction visée</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section class="section" id="temoignages">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__eyebrow">Ils nous font confiance</span>
+          <h2 class="section__title">Témoignages clients</h2>
+        </header>
+        <div class="grid grid--3">
+          <figure class="card quote">
+            <blockquote>« Intervention rapide et efficace, mon ordinateur fonctionne comme neuf. »</blockquote>
+            <figcaption>— Marie L., particulière</figcaption>
+          </figure>
+          <figure class="card quote">
+            <blockquote>« Mise en réseau de nos bureaux impeccable, suivi régulier au top. »</blockquote>
+            <figcaption>— Karim B., TPE</figcaption>
+          </figure>
+          <figure class="card quote">
+            <blockquote>« Des conseils clairs et honnêtes, sans pression. Je recommande. »</blockquote>
+            <figcaption>— Sophie D., auto-entrepreneuse</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__eyebrow">Contact</span>
+          <h2 class="section__title">Demandez votre devis gratuit</h2>
+          <p class="section__subtitle">Décrivez votre besoin, je vous réponds sous 24h.</p>
+        </header>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Nom complet</label>
+              <input type="text" id="name" name="name" required placeholder="Votre nom" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="vous@exemple.fr" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="phone">Téléphone</label>
+              <input type="tel" id="phone" name="phone" placeholder="06 12 34 56 78" />
+            </div>
+            <div class="field">
+              <label for="subject">Sujet</label>
+              <select id="subject" name="subject">
+                <option>Dépannage</option>
+                <option>Installation</option>
+                <option>Maintenance</option>
+                <option>Conseil / Audit</option>
+                <option>Autre</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Décrivez votre besoin..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block">Envoyer ma demande</button>
+          <p class="form-feedback" id="formFeedback" role="status" hidden>
+            ✅ Merci ! Votre demande a bien été prise en compte. Je vous réponds sous 24h.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="brand__logo" aria-hidden="true">⌬</span>
+        <span>Service Informatique à la Carte</span>
+      </div>
+      <nav class="footer__nav" aria-label="Pied de page">
+        <a href="#services">Services</a>
+        <a href="#apropos">À propos</a>
+        <a href="#temoignages">Témoignages</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer__legal">© <span id="year"></span> Service Informatique à la Carte. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <a href="#hero" class="back-to-top" id="backToTop" aria-label="Retour en haut">↑</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
