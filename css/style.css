@@ -600,6 +600,11 @@ a { color: inherit; text-decoration: none; }
 }
 
 
+/* ---------- Contact : centrage renforcé ---------- */
+#contact .section__head { text-align: center; }
+#contact .contact-simple { margin-inline: auto; }
+
+
 /* ===========================================================
    Responsive — Tablettes
    =========================================================== */
