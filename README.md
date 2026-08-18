@@ -58,6 +58,15 @@ Un module de consentement cookies est intégré (`js/consent.js`) :
 Compatible avec GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.
 Pour GitHub Pages : branche `main` → Settings → Pages → Source: `main` / root.
 
+## Indexation par les moteurs de recherche et d'IA
+
+Le site est configuré pour être indexé (domaine : `externe-dsi.fr`) :
+
+- `robots.txt` autorise tous les crawlers, y compris les bots d'IA (GPTBot, ClaudeBot, PerplexityBot, AppleBot-Extended, Google-Extended, etc.), et déclare le sitemap.
+- `sitemap.xml` liste les 14 pages avec priorités.
+- Chaque page comporte : balise `canonical`, `meta robots`, Open Graph, Twitter Card, et données structurées JSON-LD (`Organization`, `WebSite`, `Service`).
+- La page Mentions légales est en `noindex` (sans valeur pour la recherche).
+
 ## Licence
 
 Tous droits réservés.

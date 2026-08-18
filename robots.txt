@@ -1,0 +1,55 @@
+# robots.txt — Service Informatique à la Carte (externe-dsi.fr)
+# Autorise l'indexation par les moteurs de recherche et les moteurs d'IA
+# (Google, Bing, DuckDuckGo, GPTBot, Claude, Perplexity, AppleBot-Extended, etc.)
+
+User-agent: *
+Allow: /
+
+# Crawlers d'IA — explicitement autorisés
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: AppleBot
+Allow: /
+
+User-agent: AppleBot-Extended
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Empêche l'indexation des pages sans valeur de contenu
+Disallow: /mentions-legales.html
+
+# Emplacement du plan du site
+Sitemap: https://externe-dsi.fr/sitemap.xml

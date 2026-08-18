@@ -1,6 +1,6 @@
 {
-  "name": "Conseil en Système d'Information",
-  "short_name": "Conseil SI",
+  "name": "Service Informatique à la Carte",
+  "short_name": "Service SI",
   "icons": [
     {
       "src": "assets/android-icon-36x36.png",
@@ -41,5 +41,6 @@
   ],
   "theme_color": "#1e3a8a",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "standalone",
+  "description": "Service informatique à la carte pour les professionnels : support, maintenance et conseil."
 }
