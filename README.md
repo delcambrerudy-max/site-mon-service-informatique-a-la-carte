@@ -36,6 +36,16 @@ python3 -m http.server 8000
 # puis http://localhost:8000
 ```
 
+## Conformité cookies (RGPD / CNIL)
+
+Un module de consentement cookies est intégré (`js/consent.js`) :
+
+- Bandeau non intrusif au premier affichage, avec boutons **Tout accepter** et **Tout refuser** d'égale importance.
+- Google Analytics (GA4) n'est chargé **qu'après** acceptation explicite ; aucun cookie tiers n'est déposé avant.
+- Adresse IP anonymisée, aucun cookie publicitaire ni de profilage.
+- Le consentement est mémorisé 6 mois (stockage local) ; l'utilisateur peut le révoquer via le lien **Cookies** du pied de page.
+- La section *Cookies* des [mentions légales](mentions-legales.html#cookies) détaille finalités, durées et droits.
+
 ## Personnalisation
 
 1. **Textes** : modifiez directement `index.html` (titres, services, témoignages).
