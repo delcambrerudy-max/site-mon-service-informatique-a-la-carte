@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7XDMPH0JBF"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-7XDMPH0JBF');
-  </script>
+  <!-- Consentement cookies (RGPD / CNIL) — Google Analytics chargé seulement après acceptation -->
+  <script src="js/consent.js"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Mentions légales du site Conseil en Système d'Information." />
@@ -138,11 +132,21 @@
         </article>
 
         <article class="legal__block">
-          <h2 class="legal__title">9. Cookies</h2>
+          <h2 class="legal__title" id="cookies">9. Cookies</h2>
           <p>
-            Le site utilise des cookies pour améliorer l'expérience utilisateur et analyser le trafic.
-            L'utilisateur peut désactiver les cookies via les paramètres de son navigateur. Pour plus
-            d'informations, consultez notre Politique de confidentialité.
+            Le site dépose des cookies uniquement avec votre consentement préalable, conformément à la directive « ePrivacy », au Règlement général sur la protection des données (RGPD) et aux recommandations de la CNIL.
+          </p>
+          <p>
+            <strong>Cookies déposés.</strong> Le site utilise des cookies de mesure d'audience (Google Analytics 4) afin d'établir des statistiques anonymisées de fréquentation. Les données collectées (pages visitées, durée des visites, provenance géographique agrégée) ne permettent pas votre identification directe et l'adresse IP est anonymisée dès la collecte. Le site ne dépose aucun cookie publicitaire ni de tierce partie à des fins de profilage ou de ciblage commercial.
+          </p>
+          <p>
+            <strong>Durée de conservation.</strong> Les cookies de mesure d'audience ont une durée de vie maximale de 13 mois. La durée de conservation du consentement est de 6 mois ; au-delà, il est de nouveau demandé.
+          </p>
+          <p>
+            <strong>Consentement.</strong> Lors de votre première visite, un bandeau vous permet d'accepter ou de refuser ces cookies. Les deux boutons (Tout accepter / Tout refuser) ont la même importance, aucun cookie n'est déposé avant votre choix. Votre décision est mémorisée sur cet appareil via le stockage local du navigateur.
+          </p>
+          <p>
+            <strong>Retrait du consentement.</strong> Vous pouvez modifier votre choix à tout moment en cliquant sur le lien « Cookies » situé dans le pied de page du site, ou en supprimant les données de site dans les paramètres de votre navigateur. Vous pouvez également configurer votre navigateur pour bloquer les cookies via ses propres réglages.
           </p>
         </article>
 
@@ -186,6 +190,7 @@
         <a href="index.html#apropos">À propos</a>
         <a href="index.html#temoignages">Témoignages</a>
         <a href="index.html#contact">Contact</a>
+        <a href="mentions-legales.html#cookies" id="cookieReopen">Cookies</a>
         <a href="mentions-legales.html">Mentions légales</a>
       </nav>
       <p class="footer__legal">© <span id="year"></span> Conseil en Système d'Information. Tous droits réservés.</p>
