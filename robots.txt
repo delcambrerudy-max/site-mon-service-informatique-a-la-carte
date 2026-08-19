@@ -49,7 +49,7 @@ User-agent: anthropic-ai
 Allow: /
 
 # Empêche l'indexation des pages sans valeur de contenu
-Disallow: /mentions-legales.html
+
 
 # Emplacement du plan du site
 Sitemap: https://www.yke.solutions/sitemap.xml
