@@ -60,7 +60,7 @@ Pour GitHub Pages : branche `main` → Settings → Pages → Source: `main` / r
 
 ## Indexation par les moteurs de recherche et d'IA
 
-Le site est configuré pour être indexé (domaine : `externe-dsi.fr`) :
+Le site est configuré pour être indexé (domaine : `www.yke.solutions`) :
 
 - `robots.txt` autorise tous les crawlers, y compris les bots d'IA (GPTBot, ClaudeBot, PerplexityBot, AppleBot-Extended, Google-Extended, etc.), et déclare le sitemap.
 - `sitemap.xml` liste les 14 pages avec priorités.

@@ -1,4 +1,4 @@
-# robots.txt — Service Informatique à la Carte (externe-dsi.fr)
+# robots.txt — Service Informatique à la Carte (www.yke.solutions)
 # Autorise l'indexation par les moteurs de recherche et les moteurs d'IA
 # (Google, Bing, DuckDuckGo, GPTBot, Claude, Perplexity, AppleBot-Extended, etc.)
 
@@ -52,4 +52,4 @@ Allow: /
 Disallow: /mentions-legales.html
 
 # Emplacement du plan du site
-Sitemap: https://externe-dsi.fr/sitemap.xml
+Sitemap: https://www.yke.solutions/sitemap.xml
