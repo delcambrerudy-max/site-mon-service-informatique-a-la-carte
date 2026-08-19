@@ -1,8 +1,0 @@
-# Configuration Apache pour le site Service Informatique à la Carte
-# Hébergement OVH - www.yke.solutions
-
-# Page d'erreur 404 personnalisée
-ErrorDocument 404 /404.html
-
-# Protection contre le listing des dossiers
-Options -Indexes
